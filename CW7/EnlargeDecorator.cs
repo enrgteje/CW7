@@ -1,6 +1,6 @@
 ﻿/* Name: Enrique Tejeda
  * Date: 10/2/2020
- * Filename: ScrollDecorator.cs
+ * Filename: EnlargeDecorator.cs
  * Description: Class inherits from the Widget interface. It also implements the draw
  *              function and calls base's draw function as well.
  */
@@ -11,12 +11,12 @@ using System.Text;
 
 namespace CW7
 {
-    public class ScrollDecorator : Decorator
+    class EnlargeDecorator : Decorator
     {
-        public ScrollDecorator(Widget w) : base(w) { }
+        public EnlargeDecorator(Widget w) : base(w) { }
         new public void draw()
         {
-            Console.WriteLine("This is the ScrollDecorator.");
+            Console.WriteLine("This is the EnlargeDecorator.");
             base.draw();
         }
     }

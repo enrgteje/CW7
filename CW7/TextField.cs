@@ -1,4 +1,11 @@
-﻿using System;
+﻿/* Name: Enrique Tejeda
+ * Date: 10/2/2020
+ * Filename: Textfield.cs
+ * Description: Class implements the draw function as well as make 2 member variables. Both variables are set
+ *              equal to the arguments in the constructor.
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Text;
@@ -12,20 +19,10 @@ namespace CW7
         public void draw()
         {
             Console.WriteLine("This is the TextField.");
-
-            // OR THIS IMPLEMENTATION
-
-            /*Console.WriteLine("The width of the TextField is " + width +
-                "\nThe height of the Textfield is " + height);*/
         }
 
         public TextField(int w, int h)
         {
-            /*Console.WriteLine("The width of the TextField is " + w + 
-                "\nThe height of the Textfield is " + h);*/
-
-            //or this implementation
-
             width = w;
             height = h;
         }
