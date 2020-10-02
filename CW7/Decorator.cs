@@ -9,11 +9,12 @@ namespace CW7
         private Widget wid;
         public Decorator(Widget w)
         {
-            w = wid;
+            wid = w;
         }
         public void draw()
         {
             Console.WriteLine("This is the Decorator.");
+            wid.draw();
         }
     }
 }
